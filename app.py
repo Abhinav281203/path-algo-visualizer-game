@@ -49,6 +49,7 @@ class App:
         for i in range(self.n):
             for j in range(self.n):
                 self.canvas.itemconfig(self.grid[i][j], fill="#EEE7E5")
+                self.grid_colors[i][j] = "#EEE7E5"
 
     def reset_canvas(self):
         for i in range(self.n):
